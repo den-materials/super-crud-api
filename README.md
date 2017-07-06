@@ -161,8 +161,16 @@ This project uses [mocha](https://mochajs.org/), [chai](http://chaijs.com/) for 
 
 Travis CI is enabled for this app. It will run tests and linting whenever a new push or a new pull request is made. Repo administrators can turn Travis on and off, and both admins and collaborators can control smaller-scale guides.  Travis is configured through the `travis.yml` file.  See Travis CI's [getting started guide[(https://docs.travis-ci.com/user/getting-started/) for information on how to control Travis' access to this repo through your admin or collaborator GitHub account.
 
-### Automatic Heroku Deployment
+### Heroku Deployment from `heroku` branch
 
 The `heroku` branch is configured for easy deployment to heroku. See [Heroku's guide to GitHub integration / Heroku deploys](https://devcenter.heroku.com/articles/github-integration) for full information.  The integration is currently set up to allow easy manual deploys from the `heroku` branch, but admins can change this over to automatically deploy to Heroku if CI builds successfully.
 
-When you want to deploy new versions to Heroku, push them to the `heroku` branch, check that Travis CI builds successfully, and then visit [the Super CRUD heroku dashboard](https://dashboard.heroku.com/apps/super-crud/deploy/github) to manually deploy the `heroku` branch.  If you need permission to access the dashboard, seek SF WDI instructors. 
+When you want to deploy new versions to Heroku:
+
+1. merge your changes into the `heroku` branch, 
+
+2. check that Travis CI builds successfully, 
+
+3. and then visit [the Super CRUD heroku dashboard](https://dashboard.heroku.com/apps/super-crud/deploy/github) to manually deploy the `heroku` branch.  
+
+If you need permission to access the dashboard, seek SF WDI instructors. 
