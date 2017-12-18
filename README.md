@@ -2,7 +2,7 @@
 
 ## Base URL
 
-<a href="https://super-crud.herokuapp.com" target="_blank">https://super-crud.herokuapp.com</a>
+<a href="https://den-super-crud.herokuapp.com" target="_blank">https://den-super-crud.herokuapp.com</a>
 
 ## Books Endpoint
 
@@ -119,4 +119,4 @@ GET `/pokemon`
 
 ## Reset Seed Data
 
-<a href="http://super-crud.herokuapp.com/reset" target="_blank">http://super-crud.herokuapp.com/reset</a>
+<a href="http://den-super-crud.herokuapp.com/reset" target="_blank">http://den-super-crud.herokuapp.com/reset</a>
