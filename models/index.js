@@ -2,6 +2,7 @@ var mongoose = require("mongoose");
 mongoose.connect(
   process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
+  process.env.MONGODB_URI ||
   'mongodb://localhost/super-crud-api'
 );
 var Book = require('./book');
@@ -14,4 +15,4 @@ module.exports.Book = Book;
 module.exports.Wine = Wine;
 module.exports.Pokemon = Pokemon;
 module.exports.Todo = Todo;
-module.exports.Watcher = Watcher
+module.exports.Watcher = Watcher;
